@@ -1,5 +1,90 @@
 .container-landing {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
 }
+
+.container-landing .content-wrapper-landing {
+ width: 100%;
+ max-width: 1100px;
+ display: flex;
+ height: 100%;
+ max-height: 680px;
+ align-items: flex-start;
+ justify-content: space-between;
+
+ background: url('../../assets/svg/children.svg') no-repeat 80% center;
+}
+
+.container-landing .content-wrapper-landing .container-letf-landing main {
+  max-width: 350px;
+}
+
+
+.container-landing .content-wrapper-landing .container-letf-landing main h1 {
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+.container-landing .content-wrapper-landing .container-letf-landing main p {
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.container-letf-landing {
+  margin-left: -50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-letf-landing img {
+  margin-left: -150px;
+  margin-top: -90px;
+}
+.container-right-landing {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.container-right-landing .location{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.container-right-landing .location strong {
+  font-weight: 800;
+}
+
+.container-right-landing .enter-app {
+  width: 80px;
+  height: 80px;
+  background: #ffd666;
+  border-radius: 30px;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ;
+}
+
+.container-right-landing .enter-app:hover {
+  background: #96feff;
+}
+

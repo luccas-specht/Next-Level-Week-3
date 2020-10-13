@@ -1,7 +1,7 @@
-import { Landing} from '../ui/pages';
+import { Landing } from '../ui/pages';
 
 const paths = {
-  default: () => '/',
+  initialRoute: () => '/',
 };
 
 const components = {
@@ -10,7 +10,7 @@ const components = {
 
 const routers = [
   {
-    path: paths.default(),
+    path: paths.initialRoute(),
     component: components.leading,
     isPublic: true,
   },
