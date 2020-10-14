@@ -1,7 +1,8 @@
 import React from 'react'
-import { RouteManger } from './routes' 
+
+import { Routes } from './routes'
 import './ui/styles/global.css'
 
-const App = ()=> <RouteManger/>
+const App = () => <Routes />
 
-export { App } ;
+export { App };

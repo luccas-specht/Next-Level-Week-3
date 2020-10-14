@@ -1,9 +1,9 @@
 import React from 'react';
-import { FiArrowRight } from 'react-icons/fi'
-import './landing.style.css';
-
 import { Link } from 'react-router-dom';
 
+import { FiArrowRight } from 'react-icons/fi'
+
+import './landing.style.css';
 import logoHappy from '../../assets/svg/logo.svg';
 
 const Landing = () => (
@@ -25,11 +25,8 @@ const Landing = () => (
                         Rio Grande do Sul
                     </span>
                 </div>
-                <Link to='' className='enter-app'>
-                    <FiArrowRight
-                        size={26}
-                        color='rgba(0,0,0,0.6)'
-                    />
+                <Link to='/orfanatos' className='enter-app'>
+                    <FiArrowRight size={26} color='rgba(0,0,0,0.6)' />
                 </Link>
             </div>
         </div>
