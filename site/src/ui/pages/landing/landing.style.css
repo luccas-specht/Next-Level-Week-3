@@ -15,14 +15,12 @@
  max-height: 680px;
  align-items: flex-start;
  justify-content: space-between;
-
  background: url('../../assets/svg/children.svg') no-repeat 80% center;
 }
 
 .container-landing .content-wrapper-landing .container-letf-landing main {
   max-width: 350px;
 }
-
 
 .container-landing .content-wrapper-landing .container-letf-landing main h1 {
   font-size: 76px;
